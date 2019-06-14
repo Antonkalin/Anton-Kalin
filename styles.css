@@ -1,0 +1,342 @@
+/* @import url('https://fonts.googleapis.com/css?family=Lato:400,700'); */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+ 
+html, body{ 
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    overflow-x: hidden;
+} 
+.row {
+  padding-right: 0px;
+  margin-right: 0px ;
+} 
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+}
+p{
+	 font-family: 'Montserrat', sans-serif;
+ }
+ 
+
+/*--- Landing Page --- */
+.home-inner{
+  filter: brightness(50%);
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+  .caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38% ;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+  }
+  .caption h1 {
+    font-size: 3.8rem;
+    font-weight: 600;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8ren black;
+    padding-bottom: 1rem; 
+    letter-spacing: 0.3rem;
+  }
+  .caption h3 {
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
+  }
+  .btn-lg {
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
+  }
+  .row img {
+    margin-bottom: 10px;
+    
+  }
+/* ----------------------- */
+
+.tool-icons{
+  display: inline-block;
+  padding: 30px;
+}
+
+.brand-icon{
+  color: white;
+}
+.brand-name{
+  position: relative;
+  color: white;
+  font-size: 1rem;
+  margin-left: 10px;
+  top: 3px;
+}
+
+.card {
+        margin: 30px auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 55px; /* Added */
+
+}
+
+.narrow {
+    width: 85%;
+    margin: 1.5rem auto;
+    padding-top: 2rem;
+  }
+  .narrow-prj {
+    width: 65%;
+    margin: 1.5rem auto;
+    padding-top: 2rem;
+  }
+.narrow h1 {
+    font-size: 2.4rem;
+}
+
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, 0.7)!important;
+    width: 100% !important;
+}
+
+
+.navbar-brand img {
+    height: 30px;
+}
+
+
+.navbar-nav li{
+    padding-right: 15px;
+}
+.social > :hover{
+  color: #1ebba3 !important;
+}
+
+.home-inner {
+    background-image: url(../img/main-photo4.jpg);
+}
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38% ;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+  }
+
+
+.social a{
+    color: white;
+    font-size: 25px;
+}
+
+
+/*  About    */
+.heading {
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+
+.heading-underline {
+    width: 70px;
+    height: .2rem;
+    background-color: #1b1b1b;
+    margin: 0 auto 2rem;
+    /* background-color: #1ebba3; */
+  }
+/* Projects */
+.heading-underline-proj {
+    width: 100px;
+    height: .2rem;
+    background-color: #1b1b1b;
+    margin: 0 auto 2rem;
+    /* background-color: #1ebba3; */
+  }
+
+.project-icon {
+  margin: 0 0;
+}
+
+
+ /*--- Contact Section ---*/
+
+footer {
+  background-color: #141618;
+  color: white;
+  padding: 2rem 0 2rem;
+  margin-top: 1rem;
+}
+
+
+footer a {
+  color: white;
+}
+footer svg.svg-inline--fa {
+  font-size: 1.6rem;
+  margin: 1.2rem .5rem 0 0;
+}
+.footrIcon:hover{
+  color: #1ebba3 !important;
+}
+hr.socket {
+  width: 100%;
+  border-top: .2rem solid #666b71;
+  margin-top: 3rem; 
+}
+
+.project-btn {
+  background: rgb(130, 132, 134) !important;
+  border: none !important;
+  margin: 6px;
+  /* transition: background .75s ease; */
+  /* transition: all 5.75s; */
+  /* position: relative; */
+} 
+
+.card-img-top{
+  width: 100%;
+  position: relative;
+  transition: all .55s ease;
+  -webkit-transition: all .55s ease;
+  -moz-transition: all .55s ease;
+}
+
+/* On Hover */
+
+.btn:hover {
+  transform: scale(1.1);
+  transition: transform .75s ease;
+  background: #fcfcfc !important;
+  transition: background .55s ease;
+  -webkit-transition: background .75s ease;
+  -moz-transition: background .75s ease;
+} 
+.project-btn:hover {
+  /* transform: scale(1.1);
+  transition: transform 5.75s ease ; */
+  background: #292929 !important;
+  /* background: #1ebba3 !important; */
+  transition: background .75s ease;
+  -webkit-transition: background .75s ease;
+  -moz-transition: background .75s ease;
+} 
+
+
+.card{
+    overflow: hidden;
+    border-radius: 10px !important;
+    width: 350px !important;
+}
+
+.card:hover > .card-img-top {
+  transform: scale(1.1);
+  transition: transform .55s ease;
+-webkit-transition: transform .55s ease;
+-moz-transition: transform .55s ease;
+}
+
+
+
+
+
+@media screen and (max-width: 1155px) {
+  .narrow-prj {
+    width: 75%;
+    margin: 1.5rem auto;
+    padding-top: 2rem;
+    .card {
+    width: 350px !important;
+  }
+    
+  }
+  .card {
+    width: 300px !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .narrow-prj {
+    width: 85%;
+    margin: 1.5rem auto;
+    padding-top: 2rem;
+    
+  }
+  .card {
+    width: 300px !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .narrow-prj {
+    width: 100%;
+    margin: 1.5rem auto;
+    padding-top: 2rem;
+  }
+  .card {
+    width: 300px !important;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .narrow-prj {
+    width: 100%;
+    margin: 0rem auto;
+    padding-top: 0rem;
+  }
+  .card {
+    width: 270px !important;
+  }
+  .social-pocket{
+    margin-top: 20px;
+  }
+  /* Marging for Icons (Navbar) */
+  .mr-1{
+    margin-left: 3px;
+  }
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+
+
+
+
+
