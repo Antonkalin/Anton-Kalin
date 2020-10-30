@@ -1,0 +1,854 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+
+/* GLOBAL START */
+
+.color-white{
+  color: white;
+}
+.color-Lightgrey{
+  color: rgb(189, 189, 189);
+}
+.color-darkgreen{
+  color:#123B38 !important;
+}
+.color-darkblue{
+  color: #123B38 !important;
+}
+
+.text-black{
+  color: black !important;
+}
+.color-green{
+ color: #50C6AA !important; 
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+h2{
+  font-weight: 500;
+  font-size: 45px !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  line-height: 2.5;
+  font-weight: 400;
+  font-size: 18px;
+  color: #123B38;
+}
+.h2-underline{
+  width: 70px;
+  height: 3px;
+  background-color: #50C6AA;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.jumbotron{
+  background-color: #f8f8f8 !important;
+  padding: 4px;
+  margin-bottom: 0PX;
+}
+
+
+
+/* Carousel */
+
+.wrapper {width: 1540px; height: auto; overflow: hidden; margin: auto;}
+.item {background: rgb(223, 223, 223); height: 300px;}
+.m1, .m2 {height: 250px; background-color: lightgrey;}
+.img1 {max-width: 100% !important;}
+
+/* .card-promo{
+  border-radius: 20px;
+  margin-bottom: 25px;
+} */
+
+/*  */
+.owl-prev, .owl-next {
+
+position: absolute;
+top: 45%;
+transform: translateY(-50%);
+display: block !important;
+border:0px solid rgb(54, 54, 54);
+}
+.owl-prev { left: 5px; }
+.owl-next { right: 5px; }
+.owl-prev i, .owl-next i {transform : scale(1,2.5); color: rgb(255, 255, 255);}
+
+
+.owl-next , .owl-prev {
+  background-color: rgba(44, 44, 44, 0.486) !important;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px !important;
+  }
+  .owl-prev:hover {
+    background-color: hsla(0, 0%, 29%, 0.185) !important;
+  }
+  .owl-next:hover{
+    background-color: hsla(0, 0%, 29%, 0.185) !important;
+  }
+
+
+
+/* GLOBAL END */
+
+
+/*-------------------------------------------------------------------   HEADER CSS SART  ------------------------------------------------------------------------------------------------------ */
+
+/*--- Landing Page --- */
+.home-inner{
+  filter: brightness(60%);
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: top center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+  overflow: hidden;
+}
+.home-inner {
+  background-image: url(/img/banners/startup-593341_1920.jpg);
+  height: 70vh;
+  position: relative;
+  margin: auto;
+  
+}
+  .caption {
+    width: 100%;
+    max-width: 100%;
+    
+    top: 38% ;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+position: absolute; 
+left: 0; 
+right: 0; 
+margin-left: auto; 
+margin-right: auto; 
+width: 100px; /* Need a specific value to work */
+  }
+  .caption h1 {
+    font-size: 3.8rem;
+    font-weight: 500;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8ren black;
+    padding-bottom: 1rem; 
+    letter-spacing: 0.3rem;
+  }
+  .caption h3 {
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
+  }
+  .btn-lg {
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
+  }
+  .card {
+    margin-bottom: 10px;
+    
+  }
+/* ----------------------- */
+
+.tool-icons{
+  display: inline-block;
+  padding: 30px;
+}
+
+.brand-icon{
+  color: white;
+}
+.brand-name{
+  position: relative;
+  color: white;
+  font-size: 1rem;
+  margin-left: -5px;
+  top: 3px;
+}
+
+/* .card {
+        margin: 30px auto; 
+        float: none; 
+        margin-bottom: 55px; 
+
+} */
+
+.narrow {
+    width: 85%;
+    margin: 1.5rem auto;
+    padding-top: 2rem;
+  }
+  .narrow-prj {
+    width: 65%;
+    margin: 1.5rem auto;
+    padding-top: 2rem;
+  }
+.narrow h1 {
+    font-size: 2.4rem;
+}
+
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, 0.7)!important; 
+    max-width: 1540px;
+    margin: auto;
+}
+
+
+.navbar-brand img {
+    height: 30px;
+}
+
+
+.navbar-nav li{
+    padding-right: 15px;
+}
+.social > :hover{
+  color: #1ebba3 !important;
+}
+
+
+
+.caption {
+    width: 50%;
+    max-width: 100%;
+    position: absolute;
+    top: 20% ;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+  }
+
+
+.social a{
+    color: white;
+    font-size: 25px;
+}
+.home{
+  width: 1000px;
+  position: relative;
+  display: block;
+}
+
+/*-------------------------------------------------------------------   HEADER CSS  END  ------------------------------------------------------------------------------------------------------ */
+
+/*-------------------------------------------------------------------   PROMO CARDS START   ------------------------------------------------------------------------------------------------------ */
+.card-body1{
+  padding: 1px !important;
+}
+.card-NoBorder{
+  border: none !important;
+  padding-left: 0px;
+  padding-right: 0px;
+  }
+
+/*-------------------------------------------------------------------   PROMO CARDS END   ------------------------------------------------------------------------------------------------------ */
+
+/*-------------------------------------------------------------------   FRONT END START   ------------------------------------------------------------------------------------------------------ */
+.project-btn{
+background-color:#50C6AA !important;
+font-size: 19px;
+border: none;
+padding: 10px;
+}
+
+
+/*-------------------------------------------------------------------   FRONT END END   ------------------------------------------------------------------------------------------------------ */
+
+/*-------------------------------------------------------------------   MARKETING START   ------------------------------------------------------------------------------------------------------ */
+.marketing-section{
+  background-color: #ffffff !important;
+}
+.marketing-h2{
+  font-size: 69px !important;
+}
+
+.background-google{
+  background-image: linear-gradient(45deg,#ffffff, #ffffff);
+  padding: 25px;
+  border-radius: 15px;
+}
+.background-facebook{
+  background-image: linear-gradient(45deg,#247ad4, #56cad5);
+  padding: 25px;
+  border-radius: 15px;
+  margin-left: 30px;
+}
+/*-------------------------------------------------------------------   MARKETING END   ------------------------------------------------------------------------------------------------------ */
+
+/*-------------------------------------------------------------------   EMAIL MARKETING START   ------------------------------------------------------------------------------------------------------ */
+.email-title{
+  padding-top: 100px !important;
+  padding-bottom: 25px;
+}
+
+.info-text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  padding-top: 40px !important;
+  padding-bottom: 5px;
+  color: #168171 !important;
+  font-size: 30px;
+}
+.carousel-2 .item{
+  height: 750px !important;
+  margin-left:10px;
+  background-color: white;
+}
+.email-text {
+  padding-top: 50px;
+}
+.email-PText {
+  padding: 35px 45px 55px 45px ;
+}
+.email-small-img {
+  padding: 10px;
+}
+/*-------------------------------------------------------------------   EMAIL MARKETING END   ------------------------------------------------------------------------------------------------------ */
+
+/*-------------------------------------------------------------------   Video & Graphic START   ------------------------------------------------------------------------------------------------------ */
+.videoGraphic-bg{
+  background-color: #1B2A2F;
+}
+.cardimg-2 {
+  width: auto !important;
+  z-index: -3;
+  position: absolute;
+  margin: auto;
+  overflow: hidden; 
+  background-image: url(/080A9401.jpg);
+  width:1600px !important;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  filter: brightness(25%);
+  top: -200px;
+  object-fit: cover;
+}
+.cardimg-3 {
+  width: auto !important;
+  z-index: -3;
+  position: absolute;
+  margin: auto;
+  overflow: hidden; 
+  background-image: url(/080A9401.jpg);
+  width:1600px !important;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  filter: brightness(22%);
+  top: -200px;
+  object-fit: cover;
+}
+/*-------------------------------------------------------------------   Video & Graphic END   ------------------------------------------------------------------------------------------------------ */
+
+/*-------------------------------------------------------------------   Lets Work Together START   ------------------------------------------------------------------------------------------------------ */
+.WorkTogether-text{
+  padding: 0 250px 0 250px;
+}
+/*-------------------------------------------------------------------   Lets Work Together END   ------------------------------------------------------------------------------------------------------ */
+
+/*-------------------------------------------------------------------   FOOTER START   ------------------------------------------------------------------------------------------------------ */
+.footer-padding{
+  padding: 25px 5px 25px 5px;
+}
+.footer-email{
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
+  padding-top: 25px;
+}
+.footer-hr {
+  height: 12px;
+  width: auto;
+  background-color: #F7F5F1 !important;
+  color: #1ebba3 !important;
+
+  padding-bottom: 55px;
+}
+
+#contact{
+  height: 300px;
+  background-color: rgb(43, 43, 43);
+  margin-top: 100px;
+  color: white;
+}
+.footer-text{
+  margin-top: 55px;
+}
+/*-------------------------------------------------------------------   FOOTER END   ------------------------------------------------------------------------------------------------------ */
+
+
+
+.carousel-5{
+    height: 90px;
+}
+.card-2{
+    
+    overflow: hidden; 
+}
+.cardimg-1 {
+    width: auto !important;
+    z-index: -3;
+    position: absolute;
+    margin: auto;
+    overflow: hidden; 
+    background-image: url(/080A9401.jpg);
+    width:1200px !important;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    filter: brightness(15%);
+    top: -200px;
+    object-fit: cover;
+}
+
+.card-1 {
+    z-index: 0;
+}
+.card-text, .card-title{
+    z-index: 2;
+    position: relative;
+    color: rgb(233, 233, 233);
+}
+.card-body-1 {
+    padding: 30px 25px 0 35px;
+}
+.card-img {
+    border-radius: 0px;
+}
+.container-card{
+    padding: 0px;
+}
+
+
+.card-img {
+    transition: transform .9s; /* Animation */
+    margin: 0 auto;
+  }
+  
+  .card-img:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  .cardimg-1{
+    transition: transform 2.5s; /* Animation */
+    margin: 0 auto;
+  }
+  
+  .cardimg-1:hover {
+    transform: scale(1.9); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+
+
+
+
+
+       
+
+
+
+
+        
+
+
+
+  /* ////////////////// New CSS ///////////////////////////////// */
+
+  .card-info {
+    height: 450px !important;
+    
+  }
+  
+
+  .card-frame{
+    padding: 45px 0 45px 0 !important;
+  }
+
+  
+
+  
+  
+
+  .carousel-3 .item-video{
+    height: 500px !important;
+    margin-left:10px;
+  }
+  .carousel-4 .item{
+    height: 550px !important;
+    margin-left:10px;
+  }
+  .carousel-5 .item {
+    height: 150px !important;
+    background-color: white;
+
+}
+  
+  .navbar-inner {
+    background:transparent;
+}
+/* ICONS */
+.iconz {
+  border-radius: 100px;
+  height: 70px;
+  width: 70px !important;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////// */
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.904);
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+  top: 25%;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.marketing-section{
+
+background-color: #111517;
+}
+
+
+
+
+.frontEnd-section-bg{
+background-color: #F7F5F1 !important;
+
+}
+
+
+
+
+/* //////////////////////////////////////////////////// Marketing ////////////////////////////////////////////////////////////// */
+
+.marketing-img{
+position: relative;
+filter: brightness(90%);
+  /* The image used */
+  background-image: url("/img/banners/marketing/png5.png");
+
+  /* Full height */
+  height: 400px;
+
+  /* Create the parallax scrolling effect */
+  /* background-attachment: fixed; */
+  background-position:center center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+/* opacity: .5; */
+
+}
+.marketing-header{
+  width: 100%;
+  max-width: 100%;
+  top: 28% ;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+  position: absolute; 
+  right: 0; 
+  left: 0;
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 600px; /* Need a specific value to work */
+  font-size: 45px;
+   
+}
+
+.facebook-hr{
+  margin-top: 42px !important;
+}
+
+.bg-grey{
+  /* background-image: linear-gradient(45deg,#56cad5,#247ad4); */
+  background-image: linear-gradient(45deg,#F7F5F1, #F7F5F1);
+}
+
+
+.bg-white {
+  background-color: white;
+}
+#projects{
+  color: white;
+}
+
+
+/*  */
+.fas, .fa, .far, .fab{
+  color: #ef525b;
+}
+.color-white{
+  color: white !important;
+}
+.bg-color-white{
+  background-color: white !important;
+  height: .1px;
+  margin-top: 15px;
+}
+
+
+
+
+
+
+/*------------------------------------------------------- MEDIA QUERY"S------------------------------- */
+
+@media (min-width: 320px) { 
+  
+  .navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.1rem;
+    width: 100% !important;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.7) !important;
+}
+  .wrapper {
+    width: 100% !important; 
+    height: auto; 
+    overflow: hidden; 
+    margin: auto;} 
+ }
+
+ @media (min-width: 480px) { 
+  .navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.1rem;
+    width: 100% !important;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.7) !important;
+}
+  .wrapper {
+    width: 100% !important; 
+    height: auto; 
+    overflow: hidden; 
+    margin: auto;} 
+ }
+ @media (min-width: 769px) { 
+  .navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.1rem;
+    max-width: 100%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.7) !important;
+}
+  
+  .wrapper {
+    width: 100% !important; 
+    height: auto; 
+    overflow: hidden; 
+    margin: auto;} 
+ }
+ @media (min-width: 992px) { 
+  .navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.1rem;
+    max-width: 100%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.7) !important;
+}
+  
+  .wrapper {
+    width: 100% !important; 
+    height: auto; 
+    overflow: hidden; 
+    margin: auto;} 
+ }
+
+ @media (min-width: 1200px) { 
+  .navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.1rem;
+    max-width: 1200px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.7) !important;
+}
+  
+  .wrapper {
+    width: 1200px !important; 
+    height: auto; 
+    overflow: hidden; 
+    margin: auto;} 
+ }
+ @media (min-width: 1500px) { 
+  .navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.1rem;
+    max-width: 1500px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.7) !important;
+}
+  
+  .wrapper {
+    width: 1500px !important; 
+    height: auto; 
+    overflow: hidden; 
+    margin: auto;} 
+ }
